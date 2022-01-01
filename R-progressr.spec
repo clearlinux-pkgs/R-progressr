@@ -4,7 +4,7 @@
 #
 Name     : R-progressr
 Version  : 0.10.0
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/progressr_0.10.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/progressr_0.10.0.tar.gz
 Summary  : An Inclusive, Unifying API for Progress Updates
@@ -28,10 +28,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639946435
+export SOURCE_DATE_EPOCH=1641079910
 
 %install
-export SOURCE_DATE_EPOCH=1639946435
+export SOURCE_DATE_EPOCH=1641079910
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
