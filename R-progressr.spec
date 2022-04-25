@@ -4,7 +4,7 @@
 #
 Name     : R-progressr
 Version  : 0.10.0
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/progressr_0.10.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/progressr_0.10.0.tar.gz
 Summary  : An Inclusive, Unifying API for Progress Updates
