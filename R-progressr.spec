@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : R-progressr
-Version  : 0.15.0
-Release  : 20
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/progressr_0.15.0.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/progressr_0.15.0.tar.gz
+Version  : 0.15.1
+Release  : 21
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/progressr_0.15.1.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/progressr_0.15.1.tar.gz
 Summary  : An Inclusive, Unifying API for Progress Updates
 Group    : Development/Tools
 License  : GPL-3.0
@@ -38,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1731647682
+export SOURCE_DATE_EPOCH=1732471819
 
 %install
-export SOURCE_DATE_EPOCH=1731647682
+export SOURCE_DATE_EPOCH=1732471819
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
